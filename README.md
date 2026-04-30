@@ -12,8 +12,6 @@
 
 This repository contains **Hackathon-NASA**, a project built to demonstrate strong software engineering fundamentals under hackathon constraints. The focus is on **clarity, scalability, and correctness**, not just a working demo.
 
-**What recruiters should notice:**
-
 * Clean project structure
 * Secure configuration (no secrets committed)
 * Reproducible environment
@@ -22,10 +20,6 @@ This repository contains **Hackathon-NASA**, a project built to demonstrate stro
 ---
 
 ## 🎯 Problem Statement
-
-> *Briefly describe the real-world problem this project addresses.*
-
-Example:
 
 > How can we efficiently process and analyze large-scale space or earth-observation data while keeping the system modular and extensible?
 
@@ -40,11 +34,6 @@ This project implements:
 * Config-driven setup using environment variables
 * Notebooks for experimentation and validation
 
-Key ideas:
-
-* Fail loudly when configuration is missing
-* Prefer explicit code over magic
-* Keep hackathon code production-aware
 
 ---
 
@@ -76,7 +65,6 @@ OPENAI_API_KEY=your_api_key_here
 * `.env` files are **ignored by Git**
 * `.env.example` is provided for reference
 
-This mirrors real-world industry practices.
 
 ---
 
